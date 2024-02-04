@@ -52,7 +52,7 @@ function Footer() {
         <div className="flex gap-3 justify-between items-center p-2 flex-wrap">
           <div className="flex items-center gap-4 flex-wrap">
             <div className='flex items-center gap-1'>
-              <div className='w-[30px] h-[30px] bg-slate-500 flex justify-center items-center rounded-[6px]'>
+              <div className='w-[30px] h-[30px] bg-slate-500 flex justify-center items-center rounded-[6px] cursor-pointer'>
                 <IoMdSettings size={22} className='text-[#fff]' />
               </div>
               <p className='font-bold'>ZinTools</p>
@@ -80,7 +80,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="w-[50px] h-[50px] bg-[#dedede] flex justify-center items-center rounded-[50%]">
+          <div className="w-[50px] h-[50px] bg-[#dedede] flex justify-center items-center rounded-[50%] cursor-pointer">
             <FiMoon size={20} />
           </div>
         </div>

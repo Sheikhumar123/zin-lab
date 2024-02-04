@@ -15,6 +15,12 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  purge: ["./components/**/*.{js,ts,jsx,tsx}", "./pages/**/*.{js,ts,jsx,tsx}"],
+  plugins: [
+    "postcss-import",
+    "tailwindcss",
+    "autoprefixer"
+  ],
 }
+
 
